@@ -1,0 +1,740 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    background:#fff;
+}
+.form-innerbBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.res_top{
+    display: flex;
+    justify-content: end;
+}
+header{
+    padding:20px 60px;
+}
+.container_cunstom {
+    max-width: 1460px;
+    margin: auto;
+}
+.container_inner{
+    max-width: 1320px;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.external_wrapper {
+    max-width:550px;
+    /* border: 1px solid; */
+    /* border: 1px solid #5b616e00; */
+    border-radius: 18px;
+    width: 100%;
+    padding:0px 24px;
+    /* background: rgb(255, 255, 255); */
+    border-radius: 16px;
+    /* box-shadow: rgb(0 0 0 / 1%) 0px 6px 18px 5px, rgb(0 0 0 / 2%) 0px 4px 8px; */
+}
+
+.logo_Coi_box {
+    /* width: 126px; */
+    max-width: 126px;
+}
+.logo_Coinbase_w{
+    text-align: center;
+}
+.logo_Coinbase_w h1 {
+    font-size:26px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.privately_poly {
+    font-size: 10px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:40px;
+}
+.pass_forget{
+   text-align:end;
+}
+.pass_forget a{
+    font-size:14px;
+    text-decoration:none;
+    font-weight:400;
+}
+.logo_Coinbase_w p{
+    font-size:14px;
+}
+.external_wrapper .col-md-12 {
+    padding: 0px;
+}
+div#form_login #cointiue_btn{
+    width: 100%;
+    padding:9px 0px;
+    margin-top:5px;
+    color:#fff;
+    max-width:100%;
+    /*margin: auto;*/
+    display:block;
+    background-color: #d71e28;
+    border-radius:0px;
+    color: #fff;
+    font-weight: 600;
+}
+div#form_login #Create_acou_btn{
+    width: 100%;
+    background: #eef0f3;
+    border-radius: 45px;
+    padding: 16px 0px;
+}
+
+div#form_login button .form-check {
+    position: relative;
+    display: block;
+    padding-left:0px!important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height:10px;
+    padding:20px 0.75rem;
+   /* padding-left:0px!important;*/
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color:#fff;
+    background-clip: padding-box;
+    border:none;
+    border-bottom:1px solid gray!important;
+    border-radius:0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #495057;
+    background-color:#fff!important;
+    border-color:gray;
+    outline: 0;
+    box-shadow:none!important;
+    border:none;
+    box-shadow:none!important;
+}
+label {
+    display: inline-block;
+    margin-bottom:0rem;
+}
+
+div#form_login #Create_acou_btn {
+    width: 100%;
+    background: #eef0f3;
+    border-radius: 45px;
+    padding: 16px 0px;
+    color: #000;
+    font-weight: 600;
+    border: 1px solid #eef0f3;
+}
+
+div#form_login #Create_acou_btn .btn-primary.focus, 
+div#form_login #Create_acou_btn .btn-primary:focus {
+    color: #fff;
+    background-color:#003b2f;
+    border-color: #003b2f;
+    box-shadow: 0 0 0 0.2rem #003b2f!important;
+}
+/*30-------------- */
+
+.sign_inbnox{
+ text-align: center;
+}
+
+
+.sign_inbnox h6 {
+    color: #0052ff;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.sign_inbnox p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0px;
+    color: rgb(0, 0, 0);
+}
+.sign_inbnox h6 a{
+    text-decoration: none;
+    display:block;
+    font-size:16px;
+    font-weight:600;
+    color:#3944eb;
+}
+.sign_inbnox p a{
+    text-decoration: none;
+    color:#000;
+    margin-left:5px;
+    position:relative;
+}
+.sign_inbnox p a::before {
+    content: "";
+    border-bottom: 2px solid #3944eb;
+    /* height: 10px; */
+    width: 100%;
+    position: absolute;
+    bottom: -2px;
+}
+.privately p {
+    font-size: 13px;
+    color: #5b616e;
+}
+div#important_messa p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color:#fff;
+}
+div#important_messa h5 {
+    font-size: 22px;
+    color:#fff;
+}
+/* #img_message .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #1552f0
+} */
+div#img_message {
+    text-align: center;
+}
+
+/*=========== errro css*/
+
+div#img_message span {
+    font-size: 13px;
+    color: #000px;
+    color: #000;
+}
+div#img_message p {
+    margin-top: 13px;
+    font-weight: 600;
+}
+/*30-6-2022*/
+div#errorpagenew {
+    text-align: center;
+}
+#errorpagenew .logo_Coi_box {
+    /* width: 126px; */
+    max-width: 126px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+div#important_messa h5 {
+   margin-top: 35px;
+}
+
+/*----------- 02-11-2022---------*/
+.MuiGrid-root.MuiGrid-container.css-10bjjys {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: auto;
+    max-width: 495px;
+    /* height: 0px; */
+    padding: 0px;
+    margin: 0px;
+    margin-bottom:37px;
+}
+.log_box img{
+    max-width:220px;
+}
+
+/*=================== start form====================*/
+.form label{
+ font-size:11px;
+}
+.logo_Coinbase_w {
+    margin-bottom:50px;
+  }
+
+
+  /*======================================*/
+  .top_header{
+   background-color: #d71e28;
+   border-bottom: 4px solid #ffcd41;
+   padding:20px 0px;
+  }
+.menu_right_fargo ul{
+    display:flex;
+    justify-content:end;
+    align-items:center;
+    list-style:none;
+    margin:0px;
+    gap:20px;
+}
+.menu_right_fargo ul li a{
+    text-decoration:none!important;
+    color:#fff!important;
+    font-size:13px;
+}
+#serch_img{
+    max-width:25px;
+}
+#sign_onbtn{
+    background-color:#fff;
+    padding:10px 18px;
+    display:inline-block;
+    border-radius:30px;
+    color:#000!important;
+    font-weight:600;
+    font-size:14px;
+}
+.log_box img{
+    vertical-align:middle;
+}
+
+#row_menu{
+    display: flex;
+    align-items: center;
+   flex-wrap:wrap;
+
+}
+#row_menu li a{
+ text-decoration:none;
+}
+.gray_menuttop{
+    display:flex;
+    align-items: center;
+    gap:20px;
+     list-style:none;
+     padding-left:20px;
+     flex-wrap:wrap;
+}
+.gray_menuttop li a{
+ color:#000;
+ font-size:14px;
+ text-decoration: none;
+}
+
+.ul_whitemu{
+    display:flex;
+    align-items: center;
+    gap:30px;
+     list-style:none;
+     padding-left:0px;
+     flex-wrap:wrap;
+     justify-content:space-between;
+     margin:0px 15px;
+     margin-bottom:20px;
+}
+
+.ul_whitemu li a{
+ color:#000;
+ font-size:16px;
+ text-decoration: none;
+}
+
+.gray_menuttop {
+   /* padding: 5px 11px 0px 20px;*/
+    margin:0px;
+}
+.gray_menuttop li a::hover{
+    border-bottom:2px solid #000!;
+}
+/*.white_header{
+    padding:20px;
+}*/
+.gray_bgtop{
+background:#f9f7f6;
+padding:10px 0px;
+}
+.red_personal{
+    border-bottom:2px solid #000;
+   /* font-weight:800;*/
+    color:#000;
+}
+.gray_menuttop ul li a::{
+
+}
+
+
+/*.banner_bg_top{
+    background-image:url(../images/banner-home.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:450px;
+    width:100%;
+}*/
+
+.fomboxnew {
+    border-radius:0px 0px 0 0;
+    box-shadow: 0 0 12px 0 rgb(0 0 0 / 20%);
+    max-width: 342px;
+    padding:20px 0px 0px 0px;
+    background-color:#dc1431;
+}
+#label_idn_h {
+    color: #fff;
+    font-size: 13px;
+    margin-left:5px;
+}
+.inner_container {
+    padding: 0px 20px 20px 20px;
+}
+.form #label_idn {
+    font-size: 13px;
+    margin-left: 6px;
+}
+.form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.25rem;
+    height: 15px;
+    width:15px;
+}
+
+.two_box_btn{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-top:10px;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    font-size:14px;
+}
+.two_box_btn_col1{
+ width:65%;
+}
+
+.blueimg{
+    max-width:450px;
+    margin: auto;
+    text-align:center;
+
+}
+.blueimg img{
+    width:100%;
+    margin-top:20px;
+}
+
+#cointiue_btn{
+    width:100%;
+    background-color:#d71e28;
+    border-radius:0px;
+    color:#fff;
+    font-weight:600;
+    border:1px solid #fff;
+    margin:12px 0px;
+}
+.two_box_btn a{
+    color:#fff!important;
+}
+.two_box_btn_col2 a{
+ color:#fff!important;
+}
+.two_box_btn_col2{
+    width:30%;
+    text-align:center;
+}
+.two_box_btn_col2 a{
+ color:#fff!important;
+ text-decoration:none;
+ font-size:13px;
+}
+/*---*/
+
+/*.forgetpassBox {
+    background-color: #f4f0ed;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
+    padding: 20px;
+}*/
+.forgetpassBox {
+    background-color:#C41230;
+    /*border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 9px 0 rgb(0 0 0 / 20%);*/
+    padding:10px 20px;
+  text-align:center;
+}
+.forgetpassBox a{
+    font-size:15px;
+    color:#fff!important;
+
+}
+
+/*---*/
+.center_boxcol h2{
+ font-size: 3.29411765rem;
+line-height: 1.107;
+color:#141414;
+}
+.center_boxcol p{
+   font-size: 1.41176471rem;
+    line-height: 1.209;
+    color:#141414;
+}
+.center_boxcol a{
+ border:1px solid #3b3331;
+ background-color:#fff;
+ border-radius:30px;
+ padding:8px 20px;
+ color:#000;
+ width:100%;
+ max-width:230px;
+ display:block;
+text-align: center;
+font-weight:600;
+text-decoration:none;
+
+}
+.center_boxcol a:hover{
+    background:#000;
+    color:#fff!important;
+}
+
+
+#row_banner{
+    display:flex;
+  /*  align-items: center;*/
+    /*flex-wrap:wrap;*/
+}
+/*----*/
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%)!important;
+}
+
+#home_fomr{
+ margin-top:20px;
+}
+
+.right_gray_menu ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    margin-bottom:0px;
+}
+
+.right_gray_menu ul li a{
+ font-size:14px;
+ color:#000!important;
+}
+
+/*============ bo a*/
+.logo_divtop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+    margin:0px 15px;
+}
+.col1_log1 img{
+    width:100%;
+    max-width:270px;
+}
+.col1_log2 img{
+    width:100%;
+    max-width:200px;
+}
+.row_iiner_4{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+   /* flex-wrap:wrap;*/
+}
+.row_iiner_4 img{
+    width:100%;
+}
+/*.price_tile{
+    margin-top:10px;
+}*/
+span.show-for-large-up {
+    font-size:60px;
+    color:#e31837;
+    line-height:70px;
+}
+
+.card_all h5 {
+    font-size: 16px;
+    text-align:center;
+
+}
+.content_box_card p{
+    margin:0px;
+    font-size:13px;
+    color:#000;
+    font-weight:600;
+}
+.content_box_card{
+    text-align: center;
+}
+.content_box_card h6{
+    font-size:12px;
+    color:#e31837;
+
+}
+.content_box_card a{
+    font-size:13px;
+}
+.content_box_card{
+    padding:10px 0px;
+}
+
+.forget_pass a{
+    color:#fff!important;
+    font-size:14px;
+}
+
+/*--verify-*/
+div#form_login {
+    background:#dc1431;
+    padding: 10px 17px;
+}
+
+/*media start*/
+@media (max-width: 767.98px) {
+ .external_wrapper {
+    max-width: 330px;
+    /* border: 1px solid; */
+    /* border: 1px solid #5b616e33; */
+    border-radius: 18px;
+    width: 100%;
+    padding: 35px 15px;
+}
+.MuiGrid-root.MuiGrid-container.css-10bjjys {
+   max-width: 330px;
+   }
+   body {
+    display: flex;
+    justify-content: flex-start;
+   }
+
+   #row_menu .col-md-6{
+    width:47%;
+   }
+   #row_menu{
+    display: flex;
+    gap:10px;
+   }
+   header {
+    padding: 20px 20px;
+}
+.log_box img{
+ max-width:283px;
+}
+
+.logo_Coinbase_w {
+    margin-bottom: 80px;
+  }
+/*------------- wall fargo*/
+.mobile_col2{
+    display:none;
+}
+.gray_header{
+    display:none;
+}
+.white_header{
+    display:none;
+}
+
+.fomboxnew{
+ margin: auto;
+ margin-top:30px;
+}
+
+.center_boxcol h2 {
+    font-size: 30px;
+    
+}
+.mobile_col4 {
+   display:none;
+}
+.col-md-6.mobile_col1{
+    width:100%;
+}
+#row_menu .col-md-6 {
+    width:100%;
+}
+.log_box {
+    text-align: center;
+}
+.log_box img {
+  margin: auto;
+}
+
+}
+
+
+
+
+
+/*-------*/
+/*@media (max-width: 1600.98px){
+    .MuiGrid-root.MuiGrid-container.css-10bjjys {
+    display: flex;
+   margin-top: 50px;
+}
+
+}*/
+
+
+@media (max-width: 575.98px) {
+ .row_iiner_4 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {  
+ .row_iiner_4 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container_cunstom {
+    max-width: 420px;
+    margin: auto;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ .row_iiner_4 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.row_iiner_4 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+}
+
+@media (min-width: 1200px) {}
+
+
+
